@@ -1,0 +1,9 @@
+.checkButtonFill{
+  fill:var(--purple-600);
+}
+
+.checkButtonFill:hover{
+  opacity: 0.9;
+  fill:var(--purple-300);
+  color:var(--purple-300);
+}

@@ -1,0 +1,38 @@
+.taskBar{
+  display: flex;
+  gap: 0.5rem;
+  margin-top: -1.6875rem;
+}
+
+.taskBar input{
+  flex: 1;
+  background: var(--gray-500);
+  height: 3,375rem;
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  color: var(--gray-100);
+  padding: 1rem;
+}
+
+.taskBar button[type=submit]{
+  height: 3.25rem;
+  width: 5.625rem;
+
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+  background-color: var(--blue-600);
+  color: var(--gray-100);
+  font-weight: bold;
+  padding: 1rem;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+
+  transition: background-color 0.1s;
+}
+
+.taskBar button[type=submit]:hover{
+  background-color: var(--blue-300);
+}

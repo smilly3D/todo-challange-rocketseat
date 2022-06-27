@@ -1,0 +1,24 @@
+.emptyTask{
+  border-top: 1px solid var(--gray-400);
+  color: var(--gray-300);
+  border-radius: 8px;
+  align-items: center;
+  height: 15.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.emptyTask img{
+  margin-bottom: 1rem;
+}
+.emptyTask strong{
+  display: block;
+  line-height: 1.4;
+  font-size: 1rem;
+}
+
+.emptyTask span{
+  display: block;
+  line-height: 1.4;
+  font-size: 1rem;
+}

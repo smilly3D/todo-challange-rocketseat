@@ -1,0 +1,68 @@
+.card{
+  display: flex;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 12px;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  line-height: 1.4;
+  font-size: 0.875rem;
+  color: var(--gray-100);
+}
+
+.card + .card{
+  margin-top: 0.75rem;
+}
+
+.cardParagraph {
+  flex: 1;
+}
+
+.cardParagraphDone{
+  flex: 1;
+  text-decoration: line-through;
+  color: var(--gray-300);
+
+}
+
+.card button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 2px;
+}
+
+.check{
+  color: var(--blue-300);
+  padding: 0;
+}
+
+.check > svg {
+  fill: none
+}
+
+.check:hover svg{
+  fill: var(--blue-300)
+}
+
+.checkDone {
+  padding: 0;
+}
+
+.checkDone > svg {
+  color: var(--purple-600);
+  height: 24px;
+  width: 24px;
+}
+
+.delete{
+  color: var(--gray-300);
+  padding: 6px;
+}
+
+.delete:hover{
+  background: var(--gray-400);
+  color: var(--red-300);
+}

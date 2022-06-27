@@ -1,0 +1,54 @@
+.wrapper {
+  max-width: 46rem;
+  margin: 0 auto;
+
+}
+
+.taskBoard{
+  margin-top: 4rem;
+}
+
+.tasksInfo{
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.createdTasks{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 0.5rem;
+  color: var(--blue-300);
+  font-size: 0.875rem;
+}
+
+.createdTasks > span{
+  color: var(--gray-200);
+  padding: 2px 8px;
+
+  background-color: var(--gray-400);
+  border-radius: 999px;
+}
+
+.completedTasks{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 0.5rem;
+  color: var(--purple-300);
+  font-size: 0.875rem;
+}
+
+.completedTasks > span{
+  color: var(--gray-200);
+  padding: 2px 8px;
+
+  background-color: var(--gray-400);
+  border-radius: 999px;
+}
+
+
